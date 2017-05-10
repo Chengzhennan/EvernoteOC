@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1444ED581EB8179D005B8C76 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444ED571EB8179D005B8C76 /* main.m */; };
+		1444ED5B1EB8179D005B8C76 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444ED5A1EB8179D005B8C76 /* AppDelegate.m */; };
+		1444ED631EB8179D005B8C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1444ED621EB8179D005B8C76 /* Assets.xcassets */; };
+		1444ED661EB8179D005B8C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1444ED641EB8179D005B8C76 /* LaunchScreen.storyboard */; };
+		1444ED851EB81FD3005B8C76 /* MYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444ED7F1EB81FD3005B8C76 /* MYCollectionViewController.m */; };
+		1444ED861EB81FD3005B8C76 /* MYCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444ED821EB81FD3005B8C76 /* MYCellLayout.m */; };
+		1444ED871EB81FD3005B8C76 /* MYCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444ED841EB81FD3005B8C76 /* MYCollectionViewCell.m */; };
+		1444EDA61EB859AC005B8C76 /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444ED9F1EB859AC005B8C76 /* DismissAnimation.m */; };
+		1444EDA71EB859AC005B8C76 /* PresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444EDA31EB859AC005B8C76 /* PresentAnimation.m */; };
+		1444EDA81EB859AC005B8C76 /* TransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444EDA51EB859AC005B8C76 /* TransitionDelegate.m */; };
+		1444EDAB1EB87820005B8C76 /* GestureAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1444EDAA1EB87820005B8C76 /* GestureAnimation.m */; };
+		14729D691EBEF2A800FB43C9 /* MYNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14729D671EBEF2A800FB43C9 /* MYNoteViewController.m */; };
+		14729D6C1EBEF2C100FB43C9 /* MYNoteTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14729D6B1EBEF2C100FB43C9 /* MYNoteTopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1444ED531EB8179D005B8C76 /* 印象笔记 OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "印象笔记 OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1444ED571EB8179D005B8C76 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1444ED591EB8179D005B8C76 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1444ED5A1EB8179D005B8C76 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1444ED621EB8179D005B8C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1444ED651EB8179D005B8C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1444ED671EB8179D005B8C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1444ED7E1EB81FD3005B8C76 /* MYCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MYCollectionViewController.h; path = ../MYCollectionViewController.h; sourceTree = "<group>"; };
+		1444ED7F1EB81FD3005B8C76 /* MYCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MYCollectionViewController.m; path = ../MYCollectionViewController.m; sourceTree = "<group>"; };
+		1444ED811EB81FD3005B8C76 /* MYCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCellLayout.h; sourceTree = "<group>"; };
+		1444ED821EB81FD3005B8C76 /* MYCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCellLayout.m; sourceTree = "<group>"; };
+		1444ED831EB81FD3005B8C76 /* MYCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYCollectionViewCell.h; sourceTree = "<group>"; };
+		1444ED841EB81FD3005B8C76 /* MYCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYCollectionViewCell.m; sourceTree = "<group>"; };
+		1444ED9E1EB859AC005B8C76 /* DismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissAnimation.h; sourceTree = "<group>"; };
+		1444ED9F1EB859AC005B8C76 /* DismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissAnimation.m; sourceTree = "<group>"; };
+		1444EDA21EB859AC005B8C76 /* PresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimation.h; sourceTree = "<group>"; };
+		1444EDA31EB859AC005B8C76 /* PresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimation.m; sourceTree = "<group>"; };
+		1444EDA41EB859AC005B8C76 /* TransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionDelegate.h; sourceTree = "<group>"; };
+		1444EDA51EB859AC005B8C76 /* TransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDelegate.m; sourceTree = "<group>"; };
+		1444EDA91EB87820005B8C76 /* GestureAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureAnimation.h; sourceTree = "<group>"; };
+		1444EDAA1EB87820005B8C76 /* GestureAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureAnimation.m; sourceTree = "<group>"; };
+		14729D661EBEF2A800FB43C9 /* MYNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNoteViewController.h; sourceTree = "<group>"; };
+		14729D671EBEF2A800FB43C9 /* MYNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNoteViewController.m; sourceTree = "<group>"; };
+		14729D6A1EBEF2C100FB43C9 /* MYNoteTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNoteTopView.h; sourceTree = "<group>"; };
+		14729D6B1EBEF2C100FB43C9 /* MYNoteTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNoteTopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1444ED501EB8179D005B8C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1444ED4A1EB8179D005B8C76 = {
+			isa = PBXGroup;
+			children = (
+				1444ED551EB8179D005B8C76 /* 印象笔记 OC */,
+				1444ED541EB8179D005B8C76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1444ED541EB8179D005B8C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED531EB8179D005B8C76 /* 印象笔记 OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1444ED551EB8179D005B8C76 /* 印象笔记 OC */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED591EB8179D005B8C76 /* AppDelegate.h */,
+				1444ED5A1EB8179D005B8C76 /* AppDelegate.m */,
+				1444ED8C1EB8201C005B8C76 /* Transition */,
+				1444ED881EB81FDF005B8C76 /* MYNoteController */,
+				1444ED7C1EB81FD3005B8C76 /* CollectionViewController */,
+				1444ED621EB8179D005B8C76 /* Assets.xcassets */,
+				1444ED641EB8179D005B8C76 /* LaunchScreen.storyboard */,
+				1444ED671EB8179D005B8C76 /* Info.plist */,
+				1444ED561EB8179D005B8C76 /* Supporting Files */,
+			);
+			path = "印象笔记 OC";
+			sourceTree = "<group>";
+		};
+		1444ED561EB8179D005B8C76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED571EB8179D005B8C76 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1444ED7C1EB81FD3005B8C76 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED7D1EB81FD3005B8C76 /* Controller */,
+				1444ED801EB81FD3005B8C76 /* View */,
+			);
+			path = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		1444ED7D1EB81FD3005B8C76 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED7E1EB81FD3005B8C76 /* MYCollectionViewController.h */,
+				1444ED7F1EB81FD3005B8C76 /* MYCollectionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1444ED801EB81FD3005B8C76 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED811EB81FD3005B8C76 /* MYCellLayout.h */,
+				1444ED821EB81FD3005B8C76 /* MYCellLayout.m */,
+				1444ED831EB81FD3005B8C76 /* MYCollectionViewCell.h */,
+				1444ED841EB81FD3005B8C76 /* MYCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1444ED881EB81FDF005B8C76 /* MYNoteController */ = {
+			isa = PBXGroup;
+			children = (
+				14729D651EBEF2A800FB43C9 /* Controller */,
+				14729D681EBEF2A800FB43C9 /* View */,
+			);
+			path = MYNoteController;
+			sourceTree = "<group>";
+		};
+		1444ED8C1EB8201C005B8C76 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				1444EDA41EB859AC005B8C76 /* TransitionDelegate.h */,
+				1444EDA51EB859AC005B8C76 /* TransitionDelegate.m */,
+				1444ED9D1EB859AC005B8C76 /* Dissmiss */,
+				1444EDA01EB859AC005B8C76 /* Gesture */,
+				1444EDA11EB859AC005B8C76 /* Modal */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		1444ED9D1EB859AC005B8C76 /* Dissmiss */ = {
+			isa = PBXGroup;
+			children = (
+				1444ED9E1EB859AC005B8C76 /* DismissAnimation.h */,
+				1444ED9F1EB859AC005B8C76 /* DismissAnimation.m */,
+			);
+			path = Dissmiss;
+			sourceTree = "<group>";
+		};
+		1444EDA01EB859AC005B8C76 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				1444EDA91EB87820005B8C76 /* GestureAnimation.h */,
+				1444EDAA1EB87820005B8C76 /* GestureAnimation.m */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		1444EDA11EB859AC005B8C76 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				1444EDA21EB859AC005B8C76 /* PresentAnimation.h */,
+				1444EDA31EB859AC005B8C76 /* PresentAnimation.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		14729D651EBEF2A800FB43C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14729D661EBEF2A800FB43C9 /* MYNoteViewController.h */,
+				14729D671EBEF2A800FB43C9 /* MYNoteViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14729D681EBEF2A800FB43C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14729D6A1EBEF2C100FB43C9 /* MYNoteTopView.h */,
+				14729D6B1EBEF2C100FB43C9 /* MYNoteTopView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1444ED521EB8179D005B8C76 /* 印象笔记 OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1444ED6A1EB8179D005B8C76 /* Build configuration list for PBXNativeTarget "印象笔记 OC" */;
+			buildPhases = (
+				1444ED4F1EB8179D005B8C76 /* Sources */,
+				1444ED501EB8179D005B8C76 /* Frameworks */,
+				1444ED511EB8179D005B8C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "印象笔记 OC";
+			productName = "印象笔记 OC";
+			productReference = 1444ED531EB8179D005B8C76 /* 印象笔记 OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1444ED4B1EB8179D005B8C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					1444ED521EB8179D005B8C76 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = S6CDT78ALG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1444ED4E1EB8179D005B8C76 /* Build configuration list for PBXProject "印象笔记 OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1444ED4A1EB8179D005B8C76;
+			productRefGroup = 1444ED541EB8179D005B8C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1444ED521EB8179D005B8C76 /* 印象笔记 OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1444ED511EB8179D005B8C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1444ED661EB8179D005B8C76 /* LaunchScreen.storyboard in Resources */,
+				1444ED631EB8179D005B8C76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1444ED4F1EB8179D005B8C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1444ED851EB81FD3005B8C76 /* MYCollectionViewController.m in Sources */,
+				14729D6C1EBEF2C100FB43C9 /* MYNoteTopView.m in Sources */,
+				1444ED861EB81FD3005B8C76 /* MYCellLayout.m in Sources */,
+				1444ED5B1EB8179D005B8C76 /* AppDelegate.m in Sources */,
+				1444EDA61EB859AC005B8C76 /* DismissAnimation.m in Sources */,
+				1444ED581EB8179D005B8C76 /* main.m in Sources */,
+				1444EDAB1EB87820005B8C76 /* GestureAnimation.m in Sources */,
+				14729D691EBEF2A800FB43C9 /* MYNoteViewController.m in Sources */,
+				1444EDA71EB859AC005B8C76 /* PresentAnimation.m in Sources */,
+				1444ED871EB81FD3005B8C76 /* MYCollectionViewCell.m in Sources */,
+				1444EDA81EB859AC005B8C76 /* TransitionDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1444ED641EB8179D005B8C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1444ED651EB8179D005B8C76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1444ED681EB8179D005B8C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1444ED691EB8179D005B8C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1444ED6B1EB8179D005B8C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6CDT78ALG;
+				INFOPLIST_FILE = "印象笔记 OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.-----OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1444ED6C1EB8179D005B8C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S6CDT78ALG;
+				INFOPLIST_FILE = "印象笔记 OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.-----OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1444ED4E1EB8179D005B8C76 /* Build configuration list for PBXProject "印象笔记 OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1444ED681EB8179D005B8C76 /* Debug */,
+				1444ED691EB8179D005B8C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1444ED6A1EB8179D005B8C76 /* Build configuration list for PBXNativeTarget "印象笔记 OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1444ED6B1EB8179D005B8C76 /* Debug */,
+				1444ED6C1EB8179D005B8C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1444ED4B1EB8179D005B8C76 /* Project object */;
+}
